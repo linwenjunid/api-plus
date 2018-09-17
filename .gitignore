@@ -1,0 +1,9 @@
+
+*/__pycache__
+*.bak
+*.pyc
+*.swp
+nohup.out
+*.log
+venv
+.idea
