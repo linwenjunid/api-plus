@@ -11,4 +11,4 @@ def before_request():
 
 api = Api(plus)
 
-from . import user, login
+from . import user, login, file

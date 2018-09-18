@@ -11,6 +11,8 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     SQLALCHEMY_DATABASE_URI = os.environ.get('MYSQL')
 
+    UPLOAD_FOLDER = r'D:\Python\api\upload'
+
     DEBUG = True
 
     @staticmethod
